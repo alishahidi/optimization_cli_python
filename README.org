@@ -1,0 +1,40 @@
+#+TITLE: Ali Shahidi's python optimization clie
+#+AUTHOR: Ali Shahidi
+#+DESCRIPTION: README
+#+OPTIONS: num:nil ^:{}
+#+STARTUP: showeverything
+
+* Install dependencies
+
+#+begin_src sh
+
+python3 -m pip install -r requirments.txt
+
+#+end_src
+
+* Usage
+
+** opt
+
+*** argvs
+
+1. directory
+2. out_directory
+3. quality
+4. start_point (opt)
+
+*** use
+
+#+begin_src sh
+
+python3 main.py opt temp temp1 10 9
+#        *--------------------------------- python file
+#                *------------------------- command
+# and argvs
+
+or
+
+python3 main.py opt --directory=temp --out_directory=temp1 --quality=10 --start_point=9
+
+#+end_src
+
