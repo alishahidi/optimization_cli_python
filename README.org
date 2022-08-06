@@ -22,6 +22,8 @@ python3 -m pip install -r requirments.txt
 2. out_directory
 3. quality
 4. start_point (opt)
+5. min_size (opt) =note> 1 = 1KB, 1000 = 1M
+6. include_all (opt) => (1,y) =note> copy other images if use min_size
 
 *** use
 
@@ -34,7 +36,7 @@ python3 main.py opt temp temp1 10 9
 
 or
 
-python3 main.py opt --directory=temp --out_directory=temp1 --quality=10 --start_point=9
+python3 main.py opt --directory=temp --out_directory=temp1 --quality=10 --start_point=9 --min_size=1M
 
 #+end_src
 
